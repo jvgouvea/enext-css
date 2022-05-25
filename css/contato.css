@@ -1,0 +1,71 @@
+#contato {
+  padding-right: 20px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  margin-top: 84px;
+  padding-top: 73px;
+  padding-bottom: 130px;
+  box-sizing: border-box;
+  background-color: var(--cor-10);
+}
+
+#contato h2 {
+  margin-bottom: 24px;
+}
+
+#contato form {
+  display: flex;
+  gap: 18px;
+}
+
+#nome {
+  width: 218px;
+  margin-right: 10px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+#mensagem {
+  width: 413px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  grid-column: 2;
+  box-sizing: border-box;
+}
+
+#contato button {
+  width: 128px;
+  padding: 6px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--cor-p1);
+  box-sizing: border-box;
+  grid-column: 3;
+}
+
+#contato button:hover {
+  transition: 0.3s;
+  background-color: var(--cor-p2);
+}
+
+@media (max-width: 1024px) {
+  #nome {
+    margin-right: 0;
+  }
+  #contato form {
+    flex-wrap: wrap;
+  }
+
+  #nome {
+    width: 50%;
+  }
+
+  #mensagem {
+    width: 100%;
+  }
+}

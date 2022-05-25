@@ -1,0 +1,17 @@
+#footer {
+  padding: 15px 30px;
+  background-color: var(--cor-10);
+}
+
+#footer div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 350px) {
+  #footer div {
+    gap: 20px;
+    justify-content: center;
+  }
+}

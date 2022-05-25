@@ -1,0 +1,75 @@
+#skills {
+  margin: 0 20px;
+  margin-top: 80px;
+}
+
+#skills h2 {
+  text-align: center;
+}
+
+.lista-skills {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
+.lista-skills li {
+  padding: 16px;
+  border-radius: 50%;
+  background-color: var(--cor-10);
+}
+
+.lista-skills li:hover {
+  animation: scale 0.3s forwards;
+}
+
+#skills a {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: var(--cor-10);
+  box-sizing: border-box;
+}
+
+#skills a:hover {
+  transition: 0.3s;
+  background-color: var(--cor-p2);
+}
+
+@media (max-width: 1024px) {
+  .lista-skills {
+    gap: 30px;
+  }
+  .lista-skills li {
+    padding: 12px;
+  }
+  .lista-skills li img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  #skills {
+    margin-top: 60px;
+  }
+  .lista-skills {
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="https://www.enext.com.br/wp-content/uploads/2020/09/favicon-enext.jpg" type="image/x-icon">
+  <meta name="description" content="Desafio de CSS da ENEXT, criando uma página de portfólio">
+  <link rel="stylesheet" href="style.css">
+  <title>João Victor Gouvêa - CSS</title>
+</head>
+
+<body>
+  <header id="header-bg">
+    <div id="header">
+      <div class="header-logo">
+        <img src="./img/icons/logo.svg" alt="Logo">
+        <h3 class="cor-0 font-1-16-sb">Portfólio</h3>
+      </div>
+      <nav>
+        <ul id="header-menu" class="cor-0 font-1-16-sb">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a id="btn-topo" href="#"><img src="img/icons/topo.svg" alt="Voltar ao topo da página"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="titulo cor-0 font-1-40-b">
+    <h1 class="font-1-40-sb">Desafio de CSS - PCVTX 22</h1>
+  </section>
+  <main id="main">
+    <div id="sobre" class="perfil-info">
+      <div class="perfil-img">
+        <img src="/img/perfil.svg" alt="Foto de perfil">
+      </div>
+      <div class="perfil-detalhes">
+        <h2 class="font-1-36-sb cor-p1">João Victor, 21</h2>
+        <span class="local font-1-20 cor-0">Congonhas - MG</span>
+        <p class="font-1-16 cor-0">
+          Apaixonado pela área de tecnologia, sempre disposto a explorar novas ferramentas e desbravar esse imenso mundo da programação. Atualmente estou cursando Análise e Desenv. de Sistemas e focando meus estudos no Desenvolvimento Front-end.
+        </p>
+      </div>
+      <div class="perfil-undraw">
+        <img src="/img/undraw.svg" alt="Ilustração homem mexendo no celular">
+      </div>
+    </div>
+  </main>
+
+  <section id="skills">
+    <h2 class="font-1-32-sb cor-0">Habilidades e Competências</h2>
+    <div>
+      <ul class="lista-skills">
+        <li><img src="img/icons/html.svg" alt="HTML"></li>
+        <li><img src="img/icons/css.svg" alt="CSS"></li>
+        <li><img src="img/icons/js.svg" alt="JAVASCRIPT"></li>
+        <li><img src="img/icons/c.svg" alt="C"></li>
+        <li><img src="img/icons/vtex.svg" alt="VTEX"></li>
+        <li><img src="img/icons/git.svg" alt="GIT"></li>
+      </ul>
+    </div>
+    <a class="font-1-20 cor-0" href="https://github.com/jvgouvea" target="_blank">GitHub</a>
+  </section>
+
+  <section id="galeria">
+    <h2 class="font-1-32-sb cor-0">Galeria de fotos</h2>
+    <div>
+      <ul class="lista-galeria">
+        <li><img src="img/galeria1.jpg" alt="Foto do céu estrelado a noite"></li>
+        <li><img src="img/galeria2.jpg" alt="Foto do céu estrelado a noite"></li>
+        <li><img src="img/galeria3.jpg" alt="Foto do céu estrelado a noite"></li>
+        <li><img src="img/galeria4.jpg" alt="Foto do céu estrelado a noite"></li>
+        <li><img src="img/galeria5.jpg" alt="Foto do céu estrelado a noite"></li>
+        <li><img src="img/galeria6.jpg" alt="Foto do céu estrelado a noite"></li>
+        <li><img src="img/galeria7.jpg" alt="Foto do céu estrelado a noite"></li>
+        <li><img src="img/galeria8.jpg" alt="Foto do céu estrelado a noite"></li>
+        <li><img src="img/galeria9.jpg" alt="Foto do céu estrelado a noite"></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2 class="font-1-28-sb cor-0">entre em contato</h2>
+    <form action="">
+      <input class="font-1-16" type="text" name="nome" id="nome" placeholder="nome">
+      <input class="font-1-16" type="text" name="mensagem" id="mensagem" placeholder="mensagem">
+      <button class="font-1-16-sb cor-p4">enviar</button>
+    </form>
+  </section>
+
+  <section id="redes-sociais">
+    <ul class="lista-redes">
+      <li>
+        <a href="https://github.com/jvgouvea" target="_blank">
+          <img src="img/icons/github.svg" alt="GitHub">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/joaovictor.gouvea.96/" target="_blank">
+          <img src="img/icons/facebook.svg" alt="Facebook">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/jvgouvea/" target="_blank">
+          <img src="img/icons/linkedin.svg" alt="LinkedIn">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/joaogouvea22/" target="_blank">
+          <img src="img/icons/instagram.svg" alt="Instagram">
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer id="footer">
+    <div class="font-1-16 cor-0"><span>@copyright - 2022</span><span>all rights reserved</span></div>
+  </footer>
+
+</body>
+
+</html>

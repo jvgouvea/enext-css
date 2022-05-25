@@ -1,0 +1,10 @@
+#redes-sociais{
+  margin: 33px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.lista-redes{
+  display: flex;
+  gap: 48px;
+}
