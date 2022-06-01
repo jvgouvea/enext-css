@@ -1,13 +1,13 @@
-@import "/css/global/global.css";
-@import "/css/global/cores.css";
-@import "/css/global/tipografia.css";
+@import "./css/global/global.css";
+@import "./css/global/cores.css";
+@import "./css/global/tipografia.css";
 
 /* Página */
-@import "/css/header.css";
-@import "/css/titulo.css";
-@import "/css/sobre.css";
-@import "/css/skills.css";
-@import "/css/galeria.css";
-@import "/css/contato.css";
-@import "/css/redes-sociais.css";
-@import "/css/footer.css";
+@import "./css/header.css";
+@import "./css/titulo.css";
+@import "./css/sobre.css";
+@import "./css/skills.css";
+@import "./css/galeria.css";
+@import "./css/contato.css";
+@import "./css/redes-sociais.css";
+@import "./css/footer.css";
